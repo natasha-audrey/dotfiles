@@ -1,0 +1,37 @@
+{
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.colorTheme": "Qiita",
+  "editor.fontWeight": "500",
+  "editor.tabSize": 2,
+  "editor.fontFamily": " 'IBM Plex Mono', 'IBM Plex Sans', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 14,
+  "editor.rulers": [
+      80,
+      120,
+  ],
+  "editor.insertSpaces": true,
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "custom",
+  "workbench.colorCustomizations": {
+      "menu.background": "#364549",
+      "menu.foreground": "#fafafa",
+      "menu.selectionBackground": "#4c6166",
+      "titleBar.activeBackground": "#2c383a",
+      "titleBar.border": "#4c6166",
+      "menubar.selectionBackground": "#4c6166",
+      "breadcrumbPicker.background": "#2c383a",
+      "breadcrumb.foreground": "#fafafa"
+  },
+  "terminal.integrated.fontFamily": "'IBM Plex Mono','Droid Sans Mono','monospace'",
+  "terminal.integrated.fontSize": 10,
+  "workbench.iconTheme": "simple-icons",
+  "editor.renderWhitespace": "all",
+  "doxdocgen.generic.authorTag": "@author Nathan Yocum",
+  "doxdocgen.generic.dateFormat": "YYYY",
+  "go.goroot": "/usr/lib/go-1.10/",
+  "explorer.confirmDelete": false,
+}
