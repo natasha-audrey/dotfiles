@@ -1,0 +1,45 @@
+XTerm*faceName: IBM Plex Mono
+XTerm*faceSize: 16
+UXTerm*faceName: IBM Plex Mono
+UXTerm*faceSize: 16
+
+Xterm*selectToClipboard: true
+
+! special
+*background: #4c6166
+*foreground: #fafafa
+*cursorColor: #55c500
+
+! black
+*color0: #2c383a
+*color8: #9dabae
+
+! red
+*color1: #ff8095
+
+! green
+*color9: #88df4c
+
+! yellow
+*color2:  #ebd247
+*color10: #c5d24b
+
+! orange
+*color3:  #cd9731
+*color11: #ffa800
+
+! blue
+*color4:  #6796e6
+*color12: #6796e6
+
+! magenta
+*color5:  #b267e6
+*color13: #b267e6
+
+! teal
+*color6:  #21b6a3
+*color14: #90c9c2
+
+! white
+*color7:  #9dadba
+*color15: #9dadba
