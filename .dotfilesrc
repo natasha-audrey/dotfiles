@@ -1,0 +1,6 @@
+GIT="/usr/bin/git"
+
+# dfg=dotfiles git
+function dfg() {
+  $GIT --git-dir $HOME/github.com/natasha-audrey/dotfiles/.git/ --work-tree $HOME $@
+}

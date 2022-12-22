@@ -1,17 +1,11 @@
 {
-  "gitlens.advanced.messages": {
-    "suppressShowKeyBindingsNotice": true
-  },
   "workbench.colorTheme": "Qiita",
-  "editor.fontWeight": "500",
-  "editor.tabSize": 2,
-  "editor.fontFamily": " 'IBM Plex Mono', 'IBM Plex Sans', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.fontSize": 14,
   "editor.rulers": [80, 120],
-  "editor.insertSpaces": true,
-  "window.zoomLevel": 1,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": true,
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4
+  },
   "window.titleBarStyle": "custom",
   "workbench.colorCustomizations": {
     "menu.background": "#364549",
@@ -21,11 +15,18 @@
     "titleBar.border": "#4c6166",
     "menubar.selectionBackground": "#4c6166",
     "breadcrumbPicker.background": "#2c383a",
-    "breadcrumb.foreground": "#fafafa"
+    "breadcrumb.foreground": "#fafafa",
+    "editorInlayHint.foreground": "#14a4c8",
+    "editorInlayHint.background": "#2c383a"
   },
-  "terminal.integrated.fontFamily": "'IBM Plex Mono','Droid Sans Mono','monospace'",
-  "terminal.integrated.fontSize": 10,
-  "workbench.iconTheme": "simple-icons",
+  "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "all",
-  "explorer.confirmDelete": false
+  "workbench.iconTheme": "simple-icons",
+  "editor.minimap.enabled": false,
+  "editor.fontWeight": "400",
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
