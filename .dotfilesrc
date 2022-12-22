@@ -1,6 +1,7 @@
 GIT="/usr/bin/git"
+INSTALL_DIR="$HOME/github.com/natasha-audrey/dotfiles"
 
 # dfg=dotfiles git
 function dfg() {
-  $GIT --git-dir $HOME/github.com/natasha-audrey/dotfiles/.git/ --work-tree $HOME $@
+  $GIT --git-dir $INSTALL_DIR/.git/ --work-tree $HOME $@
 }

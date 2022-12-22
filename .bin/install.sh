@@ -30,6 +30,7 @@ function install() {
   echo "Delete files from $REPO_DIR if undesired."
   read -p "This may overwrite existing files in your home directory. Are you sure? (y/N) " -n 1
   echo ""
+
   if [[ $REPLY =~ ^[Yy]$ ]]; then
     # TODO: Deduplicate rsync command
     rsync --exclude ".git/" \
